@@ -36,7 +36,7 @@
 						if ($existePagina && $paginaActiva == 'editprofile')
 							echo $activarClase;
 						?>>Edit Profile</a>
-						<a href="uploadphoto.html"<?php if ($existePagina && $paginaActiva == 'uploadphoto') echo $activarClase; ?>>Upload Picture</a>
+						<a href="uploadphoto.html"<?php if ($existePagina && $paginaActiva == 'uploadphoto') echo $activarClase; ?>>Upload Photo</a>
 						<a href="contact.html"<?php if ($existePagina && $paginaActiva == 'contact') echo $activarClase; ?>>E-Mail</a>
 						<a href="logout.html"<?php if ($existePagina && $paginaActiva == 'logout') echo $activarClase; ?>>Logout (<?php echo $_SESSION['nickname'];?>)</a>
 						
